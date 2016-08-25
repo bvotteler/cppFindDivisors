@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>testFindDivisors.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>CEE0AF151D6E6CFD0089CF45</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEE0AF231D6E6D200089CF45</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CEE0AF151D6E6CFD0089CF45"
-               BuildableName = "cppFindDivisors"
-               BlueprintName = "cppFindDivisors"
+               BlueprintIdentifier = "CEE0AF231D6E6D200089CF45"
+               BuildableName = "testFindDivisors"
+               BlueprintName = "testFindDivisors"
                ReferencedContainer = "container:cppFindDivisors.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CEE0AF151D6E6CFD0089CF45"
-            BuildableName = "cppFindDivisors"
-            BlueprintName = "cppFindDivisors"
+            BlueprintIdentifier = "CEE0AF231D6E6D200089CF45"
+            BuildableName = "testFindDivisors"
+            BlueprintName = "testFindDivisors"
             ReferencedContainer = "container:cppFindDivisors.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,12 +55,26 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CEE0AF151D6E6CFD0089CF45"
-            BuildableName = "cppFindDivisors"
-            BlueprintName = "cppFindDivisors"
+            BlueprintIdentifier = "CEE0AF231D6E6D200089CF45"
+            BuildableName = "testFindDivisors"
+            BlueprintName = "testFindDivisors"
             ReferencedContainer = "container:cppFindDivisors.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-r console"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-d yes"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-s"
+            isEnabled = "NO">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -74,9 +88,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CEE0AF151D6E6CFD0089CF45"
-            BuildableName = "cppFindDivisors"
-            BlueprintName = "cppFindDivisors"
+            BlueprintIdentifier = "CEE0AF231D6E6D200089CF45"
+            BuildableName = "testFindDivisors"
+            BlueprintName = "testFindDivisors"
             ReferencedContainer = "container:cppFindDivisors.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
