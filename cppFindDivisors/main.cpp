@@ -19,7 +19,8 @@ int main(int argc, const char * argv[]) {
   
   int in = atoi(argv[1]);
   std::cout << "Divisors for " << in << " are: ";
-  std::cout << ConverterUtil::intVectorToStr( DivisorsFinder::findDivisorsFor(in) ) << std::endl;
+  DivisorsFinder df;
+  std::cout << ConverterUtil::intVectorToStr( df.findDivisorsFor(in) ) << std::endl;
   
   
   return 0;

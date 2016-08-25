@@ -12,17 +12,18 @@
 using std::vector;
 
 TEST_CASE("Testing DivisorsFinder class") {
+  DivisorsFinder df;
   
   SECTION("Finding divisors for 0 returns empty vector"){
     INFO("using findDivisorsFor")
-    vector<int> result = DivisorsFinder::findDivisorsFor(0);
+    vector<int> result = df.findDivisorsFor(0);
     
     CHECK(result.empty());
   }
   
   SECTION("Finding divisors for -1 returns empty vector"){
     INFO("using findDivisorsFor")
-    vector<int> result = DivisorsFinder::findDivisorsFor(-1);
+    vector<int> result = df.findDivisorsFor(-1);
     vector<int> expected; // empty
     
     CHECK(result == expected);
@@ -30,7 +31,7 @@ TEST_CASE("Testing DivisorsFinder class") {
   
   SECTION("Find correct divisors for 1"){
     INFO("using findDivisorsFor")
-    vector<int> result = DivisorsFinder::findDivisorsFor(1);
+    vector<int> result = df.findDivisorsFor(1);
     vector<int> expected;
     expected.push_back(1);
     
@@ -41,7 +42,7 @@ TEST_CASE("Testing DivisorsFinder class") {
   
   SECTION("Find correct divisors for 12 (= 1,2,3,4,6,12)"){
     INFO("using findDivisorsFor")
-    vector<int> result = DivisorsFinder::findDivisorsFor(12);
+    vector<int> result = df.findDivisorsFor(12);
     vector<int> expected;
     expected.push_back(1);
     expected.push_back(2);
@@ -53,5 +54,10 @@ TEST_CASE("Testing DivisorsFinder class") {
     CHECK(result == expected);
   }
   
+  SECTION("Compare results from V1 and V2 are equal") {
+    int number = 187663;
+    CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV2(number));
+  }
   
 }
+
