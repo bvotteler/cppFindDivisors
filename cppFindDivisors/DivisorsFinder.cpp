@@ -11,7 +11,7 @@ using std::vector;
 
 // returns vector of divisors for positive number passed in, ordered from smallest to largest
 // returns empty vector if passed in number is zero or negative
-vector<int> DivisorsFinder::findDivisorsFor(int number) {
+vector<int> DivisorsFinder::findDivisorsFor(const int number) {
   vector<int> results;
   
   // number must be positive

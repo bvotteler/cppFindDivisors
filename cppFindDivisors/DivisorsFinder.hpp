@@ -13,7 +13,7 @@
 
 class DivisorsFinder {
 public:
-  std::vector<int> findDivisorsFor(int);
+  static std::vector<int> findDivisorsFor(const int);
 };
 
 #endif /* DivisorsFinder_hpp */

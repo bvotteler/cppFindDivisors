@@ -44,6 +44,7 @@
 		CEE0AF2C1D6E6D510089CF45 /* DivisorsFinder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DivisorsFinder.hpp; sourceTree = "<group>"; };
 		CEE0AF2F1D6E6F250089CF45 /* catch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
 		CEE0AF301D6E6F740089CF45 /* testDivisorsFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; path = testDivisorsFinder.cpp; sourceTree = "<group>"; tabWidth = 2; };
+		CEE0AF331D6E7C300089CF45 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 		CEE0AF0D1D6E6CFD0089CF45 = {
 			isa = PBXGroup;
 			children = (
+				CEE0AF331D6E7C300089CF45 /* README.md */,
 				CEE0AF181D6E6CFD0089CF45 /* cppFindDivisors */,
 				CEE0AF251D6E6D200089CF45 /* testFindDivisors */,
 				CEE0AF171D6E6CFD0089CF45 /* Products */,
