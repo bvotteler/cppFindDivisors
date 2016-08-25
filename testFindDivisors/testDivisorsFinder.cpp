@@ -57,6 +57,12 @@ TEST_CASE("Testing DivisorsFinder class") {
   SECTION("Compare results from V1 and V2 are equal") {
     int number = 187663;
     CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV2(number));
+    number = 1;
+    CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV2(number));
+    number = 2;
+    CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV2(number));
+    number = 3;
+    CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV2(number));
   }
   
 }
