@@ -84,5 +84,25 @@ TEST_CASE("Testing DivisorsFinder class") {
     number = 3;
     CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV4(number));
   }
+  
+  SECTION("Section to test speed for V1 with INT_MAX -1") {
+    vector<int> result = df.findDivisorsForV1(INT_MAX-1);
+    CHECK(result.size() > 0);
+  }
+
+  SECTION("Section to test speed for V2 with INT_MAX -1") {
+    vector<int> result = df.findDivisorsForV2(INT_MAX-1);
+    CHECK(result.size() > 0);
+  }
+  
+  SECTION("Section to test speed for V3 with INT_MAX -1") {
+    vector<int> result = df.findDivisorsForV3(INT_MAX-1);
+    CHECK(result.size() > 0);
+  }
+  
+  SECTION("Section to test speed for V4 with INT_MAX -1") {
+    vector<int> result = df.findDivisorsForV4(INT_MAX-1);
+    CHECK(result.size() > 0);
+  }
 }
 

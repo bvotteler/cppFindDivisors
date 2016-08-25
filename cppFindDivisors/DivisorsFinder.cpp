@@ -72,7 +72,7 @@ vector<int> DivisorsFinder::findDivisorsForV2(const int number) {
   return results;
 };
 
-// third attempt: use variable upper limit
+// third attempt: tweak upper limit
 vector<int> DivisorsFinder::findDivisorsForV3(const int number) {
   // must be positive non-zero
   if(number < 1)
