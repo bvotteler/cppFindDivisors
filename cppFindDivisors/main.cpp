@@ -7,9 +7,20 @@
 //
 
 #include <iostream>
+#include "DivisorsFinder.hpp"
+#include "ConverterUtil.hpp"
 
 int main(int argc, const char * argv[]) {
-  // insert code here...
-  std::cout << "Hello, World!\n";
+  if(argc < 2) {
+    std::cout << "Please provide one number as argument to find its divisors" << std::endl;
+    std::cout << "Example: cppFindDivisors 42" << std::endl;
+    exit(0);
+  }
+  
+  int in = atoi(argv[1]);
+  std::cout << "Divisors for " << in << " are: ";
+  std::cout << ConverterUtil::intVectorToStr( DivisorsFinder::findDivisorsFor(in) ) << std::endl;
+  
+  
   return 0;
 }

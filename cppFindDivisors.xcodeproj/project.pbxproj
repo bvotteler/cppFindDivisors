@@ -12,6 +12,9 @@
 		CEE0AF2D1D6E6D510089CF45 /* DivisorsFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE0AF2B1D6E6D510089CF45 /* DivisorsFinder.cpp */; };
 		CEE0AF2E1D6E6D510089CF45 /* DivisorsFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE0AF2B1D6E6D510089CF45 /* DivisorsFinder.cpp */; };
 		CEE0AF321D6E6F740089CF45 /* testDivisorsFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE0AF301D6E6F740089CF45 /* testDivisorsFinder.cpp */; };
+		CEE0AF351D6E80EA0089CF45 /* testVectorToString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE0AF341D6E80EA0089CF45 /* testVectorToString.cpp */; };
+		CEE0AF381D6E81A90089CF45 /* ConverterUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE0AF361D6E81A90089CF45 /* ConverterUtil.cpp */; };
+		CEE0AF391D6E81A90089CF45 /* ConverterUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE0AF361D6E81A90089CF45 /* ConverterUtil.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +48,9 @@
 		CEE0AF2F1D6E6F250089CF45 /* catch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
 		CEE0AF301D6E6F740089CF45 /* testDivisorsFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; path = testDivisorsFinder.cpp; sourceTree = "<group>"; tabWidth = 2; };
 		CEE0AF331D6E7C300089CF45 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEE0AF341D6E80EA0089CF45 /* testVectorToString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testVectorToString.cpp; sourceTree = "<group>"; };
+		CEE0AF361D6E81A90089CF45 /* ConverterUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConverterUtil.cpp; sourceTree = "<group>"; };
+		CEE0AF371D6E81A90089CF45 /* ConverterUtil.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConverterUtil.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,8 @@
 				CEE0AF191D6E6CFD0089CF45 /* main.cpp */,
 				CEE0AF2B1D6E6D510089CF45 /* DivisorsFinder.cpp */,
 				CEE0AF2C1D6E6D510089CF45 /* DivisorsFinder.hpp */,
+				CEE0AF361D6E81A90089CF45 /* ConverterUtil.cpp */,
+				CEE0AF371D6E81A90089CF45 /* ConverterUtil.hpp */,
 			);
 			path = cppFindDivisors;
 			sourceTree = "<group>";
@@ -100,6 +108,7 @@
 				CEE0AF261D6E6D200089CF45 /* main.cpp */,
 				CEE0AF2F1D6E6F250089CF45 /* catch.hpp */,
 				CEE0AF301D6E6F740089CF45 /* testDivisorsFinder.cpp */,
+				CEE0AF341D6E80EA0089CF45 /* testVectorToString.cpp */,
 			);
 			path = testFindDivisors;
 			sourceTree = "<group>";
@@ -181,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE0AF381D6E81A90089CF45 /* ConverterUtil.cpp in Sources */,
 				CEE0AF2D1D6E6D510089CF45 /* DivisorsFinder.cpp in Sources */,
 				CEE0AF1A1D6E6CFD0089CF45 /* main.cpp in Sources */,
 			);
@@ -190,9 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE0AF351D6E80EA0089CF45 /* testVectorToString.cpp in Sources */,
 				CEE0AF2E1D6E6D510089CF45 /* DivisorsFinder.cpp in Sources */,
 				CEE0AF271D6E6D200089CF45 /* main.cpp in Sources */,
 				CEE0AF321D6E6F740089CF45 /* testDivisorsFinder.cpp in Sources */,
+				CEE0AF391D6E81A90089CF45 /* ConverterUtil.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
