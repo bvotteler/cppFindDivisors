@@ -20,7 +20,7 @@ vector<int> DivisorsFinder::findDivisorsFor(const int number) {
   
   // classic brute force: try all numbers and see if they are a divisor
   for(int i = 1; i <= number; i++) {
-    if(number % i ==0)
+    if(number % i == 0)
       results.push_back(i);
   }
   
