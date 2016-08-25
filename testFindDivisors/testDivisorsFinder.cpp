@@ -35,8 +35,6 @@ TEST_CASE("Testing DivisorsFinder class") {
     vector<int> expected;
     expected.push_back(1);
     
-    //REQUIRE(!(result.empty()));
-    //CHECK(result.size() == 1);
     CHECK(result == expected);
   }
   
