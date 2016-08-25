@@ -19,6 +19,8 @@ public:
   // different versions go here, kept public so I can test them independently
   std::vector<int> findDivisorsForV1(const int);
   std::vector<int> findDivisorsForV2(const int);
+  std::vector<int> findDivisorsForV3(const int);
+  std::vector<int> findDivisorsForV4(const int);
   
 private:
   bool isNumberPositive(const int number) {return (number > 0);}

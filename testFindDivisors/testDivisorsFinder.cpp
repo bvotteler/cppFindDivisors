@@ -52,7 +52,7 @@ TEST_CASE("Testing DivisorsFinder class") {
     CHECK(result == expected);
   }
   
-  SECTION("Compare results from V1 and V2 are equal") {
+  SECTION("Check that results from V1 and V2 are equal") {
     int number = 187663;
     CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV2(number));
     number = 1;
@@ -63,5 +63,26 @@ TEST_CASE("Testing DivisorsFinder class") {
     CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV2(number));
   }
   
+  SECTION("Check that results from V1 and V3 are equal") {
+    int number = 458372;
+    CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV3(number));
+    number = 1;
+    CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV3(number));
+    number = 2;
+    CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV3(number));
+    number = 3;
+    CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV3(number));
+  }
+
+  SECTION("Check that results from V1 and V4 are equal") {
+    int number = 87633;
+    CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV4(number));
+    number = 1;
+    CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV4(number));
+    number = 2;
+    CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV4(number));
+    number = 3;
+    CHECK(df.findDivisorsForV1(number) == df.findDivisorsForV4(number));
+  }
 }
 
